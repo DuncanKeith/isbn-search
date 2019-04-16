@@ -1,0 +1,18 @@
+{
+   "content_scripts": [ {
+      "js": [ "content_script.js" ],
+      "matches": [ "*://*/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "Replaces ISBNs with appropriate links to gen.lib.rus.ec (Online search engine for books)",
+   "icons": {
+      "128": "images/icon128.png",
+      "16": "images/icon16.png",
+      "48": "images/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApYo0e7HwsVPk4HTWyiofKPLjnrOa51nBwjsC6rDc6mcDazesAKkIW7QeDHOKsKwLsy7cZ6CR2+9Q/gQRh1wTrewnxKEeWZyISJ/HLV4nnERunDUGJLrhwxlkVWjcXIqQVoO4N+u9f2lQWH28isEtOWO3ZisQUaysS0dA0HTaMesyJCh/1X7IA1w+AyCC1htEIH32Ek4Si/0HEEUT3V3N3Qmzhoo9c6r0Ps9QFtu/sSxJPtMtQSoDaMAUMYv5LsL/YPUUum9Qexw+KD9LlV0lnjkhUmwMmo6gFp/DeCU32F8S34Tagh33/2a/onZVQtYWIYPXoVBJSm1POf182QDBCQIDAQAB",
+   "manifest_version": 2,
+   "name": "ISBN Search",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.0"
+}
